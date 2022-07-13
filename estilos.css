@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    background: #E9ECF4;
+    color: #234067;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/* HEADER: logo + menu */
+
+.header {
+    background: #234067;
+    color: white;
+    padding:20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.header .c-header {
+    width: 80%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+}
+
+.logo-header {
+    height: 50px;
+}
+
+a {
+    color: #00AFF0;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#d5a243;
+}
+
+.header .c-header .header2, .header3, .header4, .header5, .header6, .header7 {
+    align-self: center;
+    justify-self: end;
+    width: 80%;
+
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+/* HERO */
+
+#hero {
+    background-image: url(img/hero.png);
+    height: 300px;
+}
+
+#hero .c-hero {
+    width: 80%;
+    margin: auto;
+}
+
+#hero .c-hero h1 {
+    color: #d5a243;
+    text-align: center;
+    font-size: 80px;
+    font-weight: lighter;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 60px;
+    margin: 0px;
+}
+
+#hero .c-hero h4 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px black;
+    line-height: 32px;
+    padding-top: 20px;
+}
+
+
+
+/* PISO 2 */
+
+.piso2 {
+    background: #e1dbcf;
+    padding-top: 40px;
+}
+
+.c-piso2 {
+    width: 80%;
+    margin: auto;
+}
+
+.piso2 .c-piso2 h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+
+/* PISO 3 */
+
+.piso3 {
+    background: #e1dbcf;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.c-piso3 {
+    width: 80%;
+    margin: auto;
+}
+
+.piso3 .c-piso3 p {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/* PISO 4 */
+.piso4 {
+    background: #e1dbcf;
+}
+
+.c-piso4 {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px solid #d5a243;
+}
+
+.piso4-grid {
+    width: 100%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 470px;
+    gap: 50px;
+
+    grid-template-areas: "piso4-textos img-piso4";
+}
+
+.piso4-textos {
+    grid-area: piso4-textos;
+}
+
+.piso4-textos h4 {
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.piso4 .c-piso4 p {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.img-piso4 {
+    grid-area: img-piso4;
+    width: 100%;
+}
+
+
+
+/* PISO 5 */
+
+.piso5 {
+    background: #e1dbcf;
+}
+
+.c-piso5 {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px solid #d5a243;
+}
+
+.piso5-grid {
+    width: 100%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 470px;
+    gap: 50px;
+
+    grid-template-areas: "piso5-textos img-piso5";
+}
+
+.piso5-textos {
+    grid-area: piso5-textos;
+}
+
+.piso5-textos h4 {
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.piso5 .c-piso5 p {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.img-piso5 {
+    grid-area: img-piso5;
+    width: 100%;
+}
+
+
+
+/* PISO 6 */
+
+.piso6 {
+    background: white;
+    padding-top: 40px;
+}
+
+.c-piso6 {
+    width: 80%;
+    margin: auto;
+}
+
+.piso6 .c-piso6 h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+
+
+/* PISO 7 */
+
+.piso7 {
+    background: white;
+    padding-top: 30px;
+}
+
+.c-piso7 {
+    width: 80%;
+    margin: auto;
+}
+
+.piso7 .c-piso7 p {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+/* PISO 8 */
+
+.piso8 {
+    background: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.c-piso8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid #234067;
+}
+
+.c-directores, .c-gerentegeneral, .c-directordenegociosytecnologias {
+    width: 330px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.c-piso8, h5 {
+    padding-bottom: 5px;
+}
+
+
+/* FOOTER */
+
+.c-footer {
+    display: flex;
+    background:#234067;
+    margin: 0px;
+}
+
+.contenido-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.c-logo, .c-direccion {
+    width: 80%;
+}
+
+.c-logo, .c-direccion, .c-email {
+    align-self: center;
+}
+
+.logo-footer {
+    height: 80px;
+}
+
+.texto-direccion, .texto-email {
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 22px;
+}
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width: 720px) {
+    
+    .header .c-header {
+        grid-template-columns: auto;
+    }
+
+    .header .c-header .header2, .header3, .header4, .header5, .header6, .header7 {
+        align-self: center;
+        justify-self: auto;
+        padding-top: 10px;
+        width: 100%;
+    }
+
+
+
+    #hero .c-hero{
+        width: 80%;
+        margin: auto;
+    }
+    
+    #hero .c-hero h1{
+        font-size: 50px;
+        text-align: left;
+        padding-top: 50px;
+    }
+
+    #hero .c-hero h4{
+        font-size: 16px;
+        text-align: left;
+        line-height: 28px;
+    }
+
+    .piso2 .c-piso2 h2 {
+        text-align: left;
+    } 
+
+
+    .piso4-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto; 
+        grid-template-areas:    "piso4-textos"
+                                "img-piso4";
+    }
+
+    .img-piso4 img {
+        width: 100%;
+    }
+
+
+
+    .piso5-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto; 
+        grid-template-areas:    "piso5-textos"
+                                "img-piso5";
+    }
+
+    .img-piso5 img {
+        width: 100%;
+    }
+
+
+
+    .piso6 .c-piso6 h2 {
+        text-align: left;
+    } 
+
+
+
+    .c-piso8 {
+        grid-template-columns: auto;
+    }
+
+
+
+    .contenido-footer {
+        grid-template-columns: auto;
+    }
+
+    .c-direccion {
+        padding-top: 30px;
+    }
+
+    .c-email {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}
