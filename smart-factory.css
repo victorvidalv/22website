@@ -6,12 +6,17 @@
 body {
     width: 100%;
     margin: auto;
-    background: #E9ECF4;
+    background: #234067;
     color: #234067;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*
+div:hover {
+    border: 1px solid #f1c40f;
+}
+*/
 
 
 /* HEADER: logo + menu */
@@ -31,7 +36,7 @@ body {
     margin: auto;
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 50px;
 }
 
@@ -41,7 +46,7 @@ body {
 
 a {
     color: #00AFF0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
     letter-spacing: 1px;
     text-decoration: none;
@@ -51,17 +56,18 @@ a:hover {
     color:#d5a243;
 }
 
-.header .c-header .header2, .header3, .header4, .header5, .header6, .header7 {
+.header2, .header3, .header4, .header5, .header6, .header7, .header8, .header9 {
     align-self: center;
     justify-self: end;
-    width: 80%;
+    width: 70%;
 
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
     letter-spacing: 1px;
     text-decoration: none;
 }
+
 
 
 /* HERO */
@@ -88,11 +94,13 @@ a:hover {
 
 
 
-/* PISO 2 */
+
+/* PISO 2: QUE ES */
 
 .piso2 {
     background: #e1dbcf;
     padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .c-piso2 {
@@ -107,55 +115,127 @@ a:hover {
 }
 
 
-/* PISO 3 */
+
+/* PISO 3: PARRAFO */
 
 .piso3 {
     background: #e1dbcf;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .c-piso3 {
     width: 80%;
     margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #d5a243;
+}
+
+.piso3-grid {
+    width: 100%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 470px;
+    gap: 50px;
+
+    grid-template-areas: "piso3-textos img-piso3";
+}
+
+.piso3-textos {
+    grid-area: piso3-textos;
 }
 
 .piso3 .c-piso3 p {
     font-weight: lighter;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
+}
+
+.piso3 .subprocesos {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.piso3 .componentes {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.piso3 .c-piso3 ul {
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+.img-piso3 {
+    grid-area: img-piso3;
+    width: 100%;
 }
 
 
 
-/* PISO 4 */
+/* PISO 4: FABRICA DE PISOS */
 
 .piso4 {
-    background: #e1dbcf;
-    padding-bottom: 30px;
+    background: white;
 }
 
 .c-piso4 {
     width: 80%;
     margin: auto;
-    border-top: 1px solid #d5a243;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
-.piso4 .c-piso4 p {
-    font-weight: lighter;
+.piso4-grid {
+    width: 100%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 470px;
+    gap: 50px;
+
+    grid-template-areas: "piso4-textos img-piso4";
+}
+
+.piso4-textos {
+    grid-area: piso4-textos;
+}
+
+.piso4-textos h4 {
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+.piso4 .especificaciones {
     padding-top: 15px;
     padding-bottom: 5px;
-    font-size: 16px;
-    line-height: 24px;
 }
 
 .piso4 .c-piso4 ul {
+    font-size: 14px;
+    line-height: 18px;
     padding-left: 20px;
+}
+
+.piso4 .c-piso4 .piso4-grid .piso4-textos h5 {
+    padding-top: 10px;
+}
+
+.piso4 .c-piso4 .piso4-grid .piso4-textos h5 a {
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.img-piso4 {
+    grid-area: img-piso4;
+    width: 100%;
 }
 
 
 
-/* PISO 5 */
+/* PISO 5: MESA DE CORTE LASER */
 
 .piso5 {
     background: white;
@@ -164,8 +244,9 @@ a:hover {
 .c-piso5 {
     width: 80%;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid #d5a243;
 }
 
 .piso5-grid {
@@ -189,21 +270,10 @@ a:hover {
     padding-bottom: 20px;
 }
 
-.piso5 .c-piso5 p {
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.piso5 .objetivo {
-    padding-bottom: 5px;
-}
-
-.piso5 .actividades {
+.piso5 .especificaciones {
     padding-top: 15px;
     padding-bottom: 5px;
 }
-
 
 .piso5 .c-piso5 ul {
     font-size: 14px;
@@ -218,7 +288,7 @@ a:hover {
 
 
 
-/* PISO 6 */
+/* PISO 6: ROBOT INTELIGENTE DE SOLDADURA */
 
 .piso6 {
     background: white;
@@ -227,8 +297,8 @@ a:hover {
 .c-piso6 {
     width: 80%;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     border-top: 1px solid #d5a243;
 }
 
@@ -253,26 +323,24 @@ a:hover {
     padding-bottom: 20px;
 }
 
-.piso6 .c-piso6 p {
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.piso6 .objetivo {
-    padding-bottom: 5px;
-}
-
-.piso6 .actividades {
+.piso6 .especificaciones {
     padding-top: 15px;
     padding-bottom: 5px;
 }
-
 
 .piso6 .c-piso6 ul {
     font-size: 14px;
     line-height: 18px;
     padding-left: 20px;
+}
+
+.piso6 .c-piso6 .piso6-grid .piso6-textos h5 {
+    padding-top: 10px;
+}
+
+.piso6 .c-piso6 .piso6-grid .piso6-textos h5 a {
+    font-size: 14px;
+    letter-spacing: 0px;
 }
 
 .img-piso6 {
@@ -282,8 +350,7 @@ a:hover {
 
 
 
-
-/* PISO 7 */
+/* PISO 7: ROTOR PARA SOLDADURA */
 
 .piso7 {
     background: white;
@@ -292,8 +359,8 @@ a:hover {
 .c-piso7 {
     width: 80%;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     border-top: 1px solid #d5a243;
 }
 
@@ -318,21 +385,10 @@ a:hover {
     padding-bottom: 20px;
 }
 
-.piso7 .c-piso7 p {
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.piso7 .objetivo {
-    padding-bottom: 5px;
-}
-
-.piso7 .actividades {
+.piso7 .especificaciones {
     padding-top: 15px;
     padding-bottom: 5px;
 }
-
 
 .piso7 .c-piso7 ul {
     font-size: 14px;
@@ -346,8 +402,7 @@ a:hover {
 }
 
 
-
-/* PISO 8 */
+/* PISO 8: PILARES Y RIELES */
 
 .piso8 {
     background: white;
@@ -356,8 +411,8 @@ a:hover {
 .c-piso8 {
     width: 80%;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
     border-top: 1px solid #d5a243;
 }
 
@@ -382,21 +437,10 @@ a:hover {
     padding-bottom: 20px;
 }
 
-.piso8 .c-piso8 p {
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.piso8 .objetivo {
-    padding-bottom: 5px;
-}
-
-.piso8 .actividades {
+.piso8 .especificaciones {
     padding-top: 15px;
     padding-bottom: 5px;
 }
-
 
 .piso8 .c-piso8 ul {
     font-size: 14px;
@@ -406,70 +450,6 @@ a:hover {
 
 .img-piso8 {
     grid-area: img-piso8;
-    width: 100%;
-}
-
-
-
-/* PISO 9 */
-
-.piso9 {
-    background: white;
-}
-
-.c-piso9 {
-    width: 80%;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    border-top: 1px solid #d5a243;
-}
-
-.piso9-grid {
-    width: 100%;
-    margin: auto;
-    
-    display: grid;
-    grid-template-columns: 1fr 470px;
-    gap: 50px;
-
-    grid-template-areas: "piso9-textos img-piso9";
-}
-
-.piso9-textos {
-    grid-area: piso9-textos;
-}
-
-.piso9-textos h4 {
-    font-size: 24px;
-    font-weight: normal;
-    padding-bottom: 20px;
-}
-
-.piso9 .c-piso9 p {
-    font-weight: lighter;
-    font-size: 14px;
-    line-height: 18px;
-}
-
-.piso9 .objetivo {
-    padding-bottom: 5px;
-}
-
-.piso9 .actividades {
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-
-
-.piso9 .c-piso9 ul {
-    font-size: 14px;
-    line-height: 18px;
-    padding-left: 20px;
-}
-
-.img-piso9 {
-    grid-area: img-piso9;
     width: 100%;
 }
 
@@ -522,7 +502,7 @@ a:hover {
         grid-template-columns: auto;
     }
 
-    .header .c-header .header2, .header3, .header4, .header5, .header6, .header7 {
+    .header .c-header .header2, .header3, .header4, .header5, .header6, .header7, .header8, .header9 {
         align-self: center;
         justify-self: auto;
         padding-top: 10px;
@@ -530,6 +510,10 @@ a:hover {
     }
 
     
+    #hero {
+        height: 160px;
+    }
+
     #hero .c-hero {
         width: 80%;
         margin: auto;
@@ -541,6 +525,38 @@ a:hover {
         padding-top: 50px;
     }
    
+
+
+    .piso2 .c-piso2 h2 {
+        text-align: left;
+    }
+
+
+
+    .piso3-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto; 
+        grid-template-areas:    "piso3-textos"
+                                "img-piso3";
+    }
+
+    .img-piso3 img {
+        width: 100%;
+    }
+
+
+
+    .piso4-grid {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto; 
+        grid-template-areas:    "piso4-textos"
+                                "img-piso4";
+    }
+
+    .img-piso4 img {
+        width: 100%;
+    }
+
 
 
     .piso5-grid {
@@ -590,18 +606,6 @@ a:hover {
     }
 
     .img-piso8 img {
-        width: 100%;
-    }
-
-
-    .piso9-grid {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto; 
-        grid-template-areas:    "piso9-textos"
-                                "img-piso9";
-    }
-
-    .img-piso9 img {
         width: 100%;
     }
 

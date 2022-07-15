@@ -6,12 +6,17 @@
 body {
     width: 100%;
     margin: auto;
-    background: #E9ECF4;
+    background: #234067;
     color: #234067;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*
+div:hover {
+    border: 1px solid #f1c40f;
+}
+*/
 
 
 /* HEADER: logo + menu */
@@ -31,7 +36,7 @@ body {
     margin: auto;
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 50px;
 }
 
@@ -41,7 +46,7 @@ body {
 
 a {
     color: #00AFF0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
     letter-spacing: 1px;
     text-decoration: none;
@@ -51,17 +56,18 @@ a:hover {
     color:#d5a243;
 }
 
-.header .c-header .header2, .header3, .header4, .header5, .header6, .header7 {
+.header2, .header3, .header4, .header5, .header6, .header7, .header8, .header9 {
     align-self: center;
     justify-self: end;
-    width: 80%;
+    width: 70%;
 
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
     letter-spacing: 1px;
     text-decoration: none;
 }
+
 
 
 /* HERO */
@@ -89,7 +95,7 @@ a:hover {
 
 
 
-/* PISO 2 */
+/* PISO 2: QUE ES */
 
 .piso2 {
     background: #e1dbcf;
@@ -110,7 +116,7 @@ a:hover {
 
 
 
-/* PISO 3 */
+/* PISO 3: PARRAFO */
 
 .piso3 {
     background: #e1dbcf;
@@ -119,7 +125,7 @@ a:hover {
 .c-piso3 {
     width: 80%;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-bottom: 30px;
     border-top: 1px solid #d5a243;
 }
@@ -141,8 +147,8 @@ a:hover {
 
 .piso3 .c-piso3 p {
     font-weight: lighter;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .piso3 .subprocesos {
@@ -156,8 +162,8 @@ a:hover {
 }
 
 .piso3 .c-piso3 ul {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
     padding-left: 20px;
 }
 
@@ -165,270 +171,6 @@ a:hover {
     grid-area: img-piso3;
     width: 100%;
 }
-
-
-
-/* PISO 4 */
-
-.piso4 {
-    background: white;
-}
-
-.c-piso4 {
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
-.piso4-grid {
-    width: 100%;
-    margin: auto;
-    
-    display: grid;
-    grid-template-columns: 1fr 470px;
-    gap: 50px;
-
-    grid-template-areas: "piso4-textos img-piso4";
-}
-
-.piso4-textos {
-    grid-area: piso4-textos;
-}
-
-.piso4-textos h4 {
-    font-size: 24px;
-    font-weight: normal;
-    padding-bottom: 20px;
-}
-
-.piso4 .especificaciones {
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-
-.piso4 .c-piso4 ul {
-    font-size: 14px;
-    line-height: 18px;
-    padding-left: 20px;
-}
-
-.img-piso4 {
-    grid-area: img-piso4;
-    width: 100%;
-}
-
-
-
-/* PISO 5 */
-
-.piso5 {
-    background: white;
-}
-
-.c-piso5 {
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    border-top: 1px solid #d5a243;
-}
-
-.piso5-grid {
-    width: 100%;
-    margin: auto;
-    
-    display: grid;
-    grid-template-columns: 1fr 470px;
-    gap: 50px;
-
-    grid-template-areas: "piso5-textos img-piso5";
-}
-
-.piso5-textos {
-    grid-area: piso5-textos;
-}
-
-.piso5-textos h4 {
-    font-size: 24px;
-    font-weight: normal;
-    padding-bottom: 20px;
-}
-
-.piso5 .especificaciones {
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-
-.piso5 .c-piso5 ul {
-    font-size: 14px;
-    line-height: 18px;
-    padding-left: 20px;
-}
-
-.img-piso5 {
-    grid-area: img-piso5;
-    width: 100%;
-}
-
-
-
-/* PISO 6 */
-
-.piso6 {
-    background: white;
-}
-
-.c-piso6 {
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    border-top: 1px solid #d5a243;
-}
-
-.piso6-grid {
-    width: 100%;
-    margin: auto;
-    
-    display: grid;
-    grid-template-columns: 1fr 470px;
-    gap: 50px;
-
-    grid-template-areas: "piso6-textos img-piso6";
-}
-
-.piso6-textos {
-    grid-area: piso6-textos;
-}
-
-.piso6-textos h4 {
-    font-size: 24px;
-    font-weight: normal;
-    padding-bottom: 20px;
-}
-
-.piso6 .especificaciones {
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-
-.piso6 .c-piso6 ul {
-    font-size: 14px;
-    line-height: 18px;
-    padding-left: 20px;
-}
-
-.img-piso6 {
-    grid-area: img-piso6;
-    width: 100%;
-}
-
-
-
-/* PISO 7 */
-
-.piso7 {
-    background: white;
-}
-
-.c-piso7 {
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    border-top: 1px solid #d5a243;
-}
-
-.piso7-grid {
-    width: 100%;
-    margin: auto;
-    
-    display: grid;
-    grid-template-columns: 1fr 470px;
-    gap: 50px;
-
-    grid-template-areas: "piso7-textos img-piso7";
-}
-
-.piso7-textos {
-    grid-area: piso7-textos;
-}
-
-.piso7-textos h4 {
-    font-size: 24px;
-    font-weight: normal;
-    padding-bottom: 20px;
-}
-
-.piso7 .especificaciones {
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-
-.piso7 .c-piso7 ul {
-    font-size: 14px;
-    line-height: 18px;
-    padding-left: 20px;
-}
-
-.img-piso7 {
-    grid-area: img-piso7;
-    width: 100%;
-}
-
-
-/* PISO 8 */
-
-.piso8 {
-    background: white;
-}
-
-.c-piso8 {
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    border-top: 1px solid #d5a243;
-}
-
-.piso8-grid {
-    width: 100%;
-    margin: auto;
-    
-    display: grid;
-    grid-template-columns: 1fr 470px;
-    gap: 50px;
-
-    grid-template-areas: "piso8-textos img-piso8";
-}
-
-.piso8-textos {
-    grid-area: piso8-textos;
-}
-
-.piso8-textos h4 {
-    font-size: 24px;
-    font-weight: normal;
-    padding-bottom: 20px;
-}
-
-.piso8 .especificaciones {
-    padding-top: 15px;
-    padding-bottom: 5px;
-}
-
-.piso8 .c-piso8 ul {
-    font-size: 14px;
-    line-height: 18px;
-    padding-left: 20px;
-}
-
-.img-piso8 {
-    grid-area: img-piso8;
-    width: 100%;
-}
-
 
 
 /* FOOTER */
@@ -478,7 +220,7 @@ a:hover {
         grid-template-columns: auto;
     }
 
-    .header .c-header .header2, .header3, .header4, .header5, .header6, .header7 {
+    .header .c-header .header2, .header3, .header4, .header5, .header6, .header7, .header8, .header9 {
         align-self: center;
         justify-self: auto;
         padding-top: 10px;
@@ -486,6 +228,9 @@ a:hover {
     }
 
     
+    #hero {
+        height: 160px;
+    }
 
     #hero .c-hero {
         width: 80%;

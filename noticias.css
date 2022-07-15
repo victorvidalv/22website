@@ -68,11 +68,12 @@ a:hover {
 }
 
 
+
 /* HERO */
 
 #hero {
-    background-image: url(img/hero-inicio.png);
-    height: 450px;
+    background-image: url(img/hero.png);
+    height: 200px;
 }
 
 #hero .c-hero {
@@ -81,215 +82,130 @@ a:hover {
 }
 
 #hero .c-hero h1 {
-    color: #d5a243;
+    color: #00AFF0;
     text-align: center;
-    font-size: 54px;
+    font-size: 60px;
     font-weight: lighter;
-    padding-top: 110px;
     text-shadow: 2px 2px 2px black;
+    padding-top: 60px;
+    margin: 0px;
 }
 
 
 
-/* PISO 2 */
+/* PISO 2: NOTICIA 15jul2022 */
 
 .piso2 {
     background: #e1dbcf;
-    padding-top: 40px;
 }
 
 .c-piso2 {
     width: 80%;
     margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 
-.piso2 .c-piso2 h2 {
-    text-align: center;
+.piso2-grid {
+    width: 100%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 470px;
+    gap: 50px;
+
+    grid-template-areas: "piso2-textos img-piso2";
+}
+
+.piso2-textos {
+    grid-area: piso2-textos;
+}
+
+.piso2 .c-piso2 .piso2-grid .piso2-textos h4 {
     font-weight: lighter;
-    font-size: 32px;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.piso2 .c-piso2 p {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.piso2 .c-piso2 .piso2-grid .piso2-textos h5 {
+    padding-top: 10px;
+}
+
+.piso2 .c-piso2 .piso2-grid .piso2-textos h5 a {
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.img-piso2 {
+    grid-area: img-piso2;
+    width: 100%;
 }
 
 
-/* PISO 3 */
+
+/* PISO 3: NOTICIA 30nov2021 */
 
 .piso3 {
     background: #e1dbcf;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 .c-piso3 {
     width: 80%;
     margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-top: 1px solid #d5a243;
+}
+
+.piso3-grid {
+    width: 100%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: 1fr 470px;
+    gap: 50px;
+
+    grid-template-areas: "piso3-textos img-piso3";
+}
+
+.piso3-textos {
+    grid-area: piso3-textos;
+}
+
+.piso3 .c-piso3 .piso3-grid .piso3-textos h4 {
+    font-weight: lighter;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .piso3 .c-piso3 p {
     font-weight: lighter;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
 }
 
-
-/* PISO 4 */
-.piso4 {
-    background: #e1dbcf;
+.piso3 .c-piso3 .piso3-grid .piso3-textos h5 {
+    padding-top: 10px;
 }
 
-.c-piso4 {
-    width: 80%;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    border-top: 1px solid #d5a243;
+.piso3 .c-piso3 .piso3-grid .piso3-textos h5 a {
+    font-size: 14px;
+    letter-spacing: 0px;
 }
 
-.piso4-grid {
-    width: 100%;
-    margin: auto;
-    
-    display: grid;
-    grid-template-columns: 1fr 470px;
-    gap: 50px;
-
-    grid-template-areas: "piso4-textos img-piso4";
-}
-
-.piso4-textos {
-    grid-area: piso4-textos;
-}
-
-.piso4-textos h4 {
-    font-size: 24px;
-    font-weight: normal;
-    padding-bottom: 20px;
-}
-
-.piso4 .c-piso4 p {
-    font-weight: lighter;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.img-piso4 {
-    grid-area: img-piso4;
+.img-piso3 {
+    grid-area: img-piso3;
     width: 100%;
 }
 
-
-
-/* PISO 5 */
-
-.piso5 {
-    background: #e1dbcf;
-}
-
-.c-piso5 {
-    width: 80%;
-    margin: auto;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    border-top: 1px solid #d5a243;
-}
-
-.piso5-grid {
-    width: 100%;
-    margin: auto;
-    
-    display: grid;
-    grid-template-columns: 1fr 470px;
-    gap: 50px;
-
-    grid-template-areas: "piso5-textos img-piso5";
-}
-
-.piso5-textos {
-    grid-area: piso5-textos;
-}
-
-.piso5-textos h4 {
-    font-size: 24px;
-    font-weight: normal;
-    padding-bottom: 20px;
-}
-
-.piso5 .c-piso5 p {
-    font-weight: lighter;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-.img-piso5 {
-    grid-area: img-piso5;
-    width: 100%;
-}
-
-
-
-/* PISO 6 */
-
-.piso6 {
-    background: white;
-    padding-top: 40px;
-}
-
-.c-piso6 {
-    width: 80%;
-    margin: auto;
-}
-
-.piso6 .c-piso6 h2 {
-    text-align: center;
-    font-weight: lighter;
-    font-size: 32px;
-}
-
-
-
-/* PISO 7 */
-
-.piso7 {
-    background: white;
-    padding-top: 30px;
-}
-
-.c-piso7 {
-    width: 80%;
-    margin: auto;
-}
-
-.piso7 .c-piso7 p {
-    font-weight: lighter;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-
-
-/* PISO 8 */
-
-.piso8 {
-    background: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.c-piso8 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 80%;
-    margin: auto;
-    border-top: 1px solid #234067;
-}
-
-.c-directores, .c-gerentegeneral, .c-directordenegociosytecnologias {
-    width: 330px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.c-piso8, h5 {
-    padding-bottom: 5px;
-}
 
 
 /* FOOTER */
@@ -346,64 +262,46 @@ a:hover {
         width: 100%;
     }
 
-
+    
     #hero {
-        height: 300px;
+        height: 160px;
     }
 
-    #hero .c-hero{
+    #hero .c-hero {
         width: 80%;
         margin: auto;
     }
     
-    #hero .c-hero h1{
-        font-size: 32px;
+    #hero .c-hero h1 {
+        font-size: 50px;
         text-align: left;
         padding-top: 50px;
     }
+   
 
-
-    .piso2 .c-piso2 h2 {
-        text-align: left;
-    } 
-
-
-    .piso4-grid {
+    .piso2-grid {
         grid-template-columns: auto;
         grid-template-rows: auto auto; 
-        grid-template-areas:    "piso4-textos"
-                                "img-piso4";
+        grid-template-areas:    "piso2-textos"
+                                "img-piso2";
     }
 
-    .img-piso4 img {
+    .img-piso2 img {
         width: 100%;
     }
 
 
 
-    .piso5-grid {
+    .piso3-grid {
         grid-template-columns: auto;
         grid-template-rows: auto auto; 
-        grid-template-areas:    "piso5-textos"
-                                "img-piso5";
+        grid-template-areas:    "piso3-textos"
+                                "img-piso3";
     }
 
-    .img-piso5 img {
+    .img-piso3 img {
         width: 100%;
     }
-
-
-
-    .piso6 .c-piso6 h2 {
-        text-align: left;
-    } 
-
-
-
-    .c-piso8 {
-        grid-template-columns: auto;
-    }
-
 
 
     .contenido-footer {

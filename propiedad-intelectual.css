@@ -6,12 +6,17 @@
 body {
     width: 100%;
     margin: auto;
-    background: #E9ECF4;
+    background: #234067;
     color: #234067;
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/*
+div:hover {
+    border: 1px solid #f1c40f;
+}
+*/
 
 
 /* HEADER: logo + menu */
@@ -31,7 +36,7 @@ body {
     margin: auto;
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 50px;
 }
 
@@ -41,7 +46,7 @@ body {
 
 a {
     color: #00AFF0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
     letter-spacing: 1px;
     text-decoration: none;
@@ -51,17 +56,18 @@ a:hover {
     color:#d5a243;
 }
 
-.header .c-header .header2, .header3, .header4, .header5, .header6, .header7 {
+.header2, .header3, .header4, .header5, .header6, .header7, .header8, .header9 {
     align-self: center;
     justify-self: end;
-    width: 80%;
+    width: 70%;
 
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: lighter;
     letter-spacing: 1px;
     text-decoration: none;
 }
+
 
 
 /* HERO */
@@ -118,8 +124,8 @@ a:hover {
 
 .piso2 .c-piso2 p {
     font-weight: lighter;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .img-piso2 {
@@ -159,8 +165,8 @@ a:hover {
 
 .piso3 .c-piso3 p {
     font-weight: lighter;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .img-piso3 {
@@ -201,8 +207,8 @@ a:hover {
 
 .piso4 .c-piso4 p {
     font-weight: lighter;
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .img-piso4 {
@@ -258,7 +264,7 @@ a:hover {
         grid-template-columns: auto;
     }
 
-    .header .c-header .header2, .header3, .header4, .header5, .header6, .header7 {
+    .header .c-header .header2, .header3, .header4, .header5, .header6, .header7, .header8, .header9 {
         align-self: center;
         justify-self: auto;
         padding-top: 10px;
@@ -266,6 +272,10 @@ a:hover {
     }
 
     
+    #hero {
+        height: 220px;
+    }
+
     #hero .c-hero {
         width: 80%;
         margin: auto;

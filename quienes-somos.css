@@ -18,6 +18,7 @@ div:hover {
 }
 */
 
+
 /* HEADER: logo + menu */
 
 .header {
@@ -68,11 +69,12 @@ a:hover {
 }
 
 
+
 /* HERO */
 
 #hero {
-    background-image: url(img/hero-inicio.png);
-    height: 450px;
+    background-image: url(img/hero.png);
+    height: 200px;
 }
 
 #hero .c-hero {
@@ -81,36 +83,18 @@ a:hover {
 }
 
 #hero .c-hero h1 {
-    color: #d5a243;
+    color: #00AFF0;
     text-align: center;
-    font-size: 54px;
+    font-size: 60px;
     font-weight: lighter;
-    padding-top: 110px;
     text-shadow: 2px 2px 2px black;
+    padding-top: 60px;
+    margin: 0px;
 }
 
 
 
-/* PISO 2 */
-
-.piso2 {
-    background: #e1dbcf;
-    padding-top: 40px;
-}
-
-.c-piso2 {
-    width: 80%;
-    margin: auto;
-}
-
-.piso2 .c-piso2 h2 {
-    text-align: center;
-    font-weight: lighter;
-    font-size: 32px;
-}
-
-
-/* PISO 3 */
+/* PISO 3: PARRAFO */
 
 .piso3 {
     background: #e1dbcf;
@@ -130,17 +114,16 @@ a:hover {
 }
 
 
-/* PISO 4 */
+/* PISO 4: MISION */
 .piso4 {
-    background: #e1dbcf;
+    background: white;
 }
 
 .c-piso4 {
     width: 80%;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    border-top: 1px solid #d5a243;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .piso4-grid {
@@ -173,21 +156,22 @@ a:hover {
 .img-piso4 {
     grid-area: img-piso4;
     width: 100%;
+    box-shadow: 2px 5px 10px #e1dbcf;
 }
 
 
 
-/* PISO 5 */
+/* PISO 5: VISION */
 
 .piso5 {
-    background: #e1dbcf;
+    background: white;
 }
 
 .c-piso5 {
     width: 80%;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     border-top: 1px solid #d5a243;
 }
 
@@ -221,56 +205,45 @@ a:hover {
 .img-piso5 {
     grid-area: img-piso5;
     width: 100%;
+    box-shadow: 2px 5px 10px #e1dbcf;
 }
 
 
 
-/* PISO 6 */
+/* PISO 6: EQUIPO */
 
 .piso6 {
     background: white;
-    padding-top: 40px;
 }
 
 .c-piso6 {
     width: 80%;
     margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid #d5a243;
 }
 
 .piso6 .c-piso6 h2 {
-    text-align: center;
     font-weight: lighter;
-    font-size: 32px;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
-
-
-/* PISO 7 */
-
-.piso7 {
-    background: white;
-    padding-top: 30px;
-}
-
-.c-piso7 {
-    width: 80%;
-    margin: auto;
-}
-
-.piso7 .c-piso7 p {
+.piso6 .c-piso6 p {
     font-weight: lighter;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 18px;
 }
 
 
-
-/* PISO 8 */
+/* PISO 8: DIRECTIVOS */
 
 .piso8 {
     background: white;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .c-piso8 {
@@ -289,6 +262,10 @@ a:hover {
 
 .c-piso8, h5 {
     padding-bottom: 5px;
+}
+
+.piso8 .c-piso8 p {
+    padding-bottom: 20px;
 }
 
 
@@ -346,26 +323,21 @@ a:hover {
         width: 100%;
     }
 
-
+    
     #hero {
-        height: 300px;
+        height: 160px;
     }
 
-    #hero .c-hero{
+    #hero .c-hero {
         width: 80%;
         margin: auto;
     }
     
-    #hero .c-hero h1{
-        font-size: 32px;
+    #hero .c-hero h1 {
+        font-size: 50px;
         text-align: left;
         padding-top: 50px;
     }
-
-
-    .piso2 .c-piso2 h2 {
-        text-align: left;
-    } 
 
 
     .piso4-grid {
@@ -391,13 +363,6 @@ a:hover {
     .img-piso5 img {
         width: 100%;
     }
-
-
-
-    .piso6 .c-piso6 h2 {
-        text-align: left;
-    } 
-
 
 
     .c-piso8 {
