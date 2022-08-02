@@ -12,6 +12,16 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.texto-fono {
+    
+    color:#CDA454;
+    
+    
+    
+}
+
+
+
 /*
 div:hover {
     border: 1px solid #f1c40f;
@@ -125,8 +135,8 @@ a:hover {
 .c-piso3 {
     width: 80%;
     margin: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
     border-top: 1px solid #d5a243;
 }
 
@@ -148,7 +158,7 @@ a:hover {
 .piso3 .c-piso3 p {
     font-weight: lighter;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
 }
 
 .piso3 .subprocesos {
@@ -520,7 +530,7 @@ a:hover {
     }
     
     #hero .c-hero h1 {
-        font-size: 50px;
+        font-size: 48px;
         text-align: left;
         padding-top: 50px;
     }

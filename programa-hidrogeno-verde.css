@@ -74,7 +74,7 @@ a:hover {
 
 #hero {
     background-image: url(img/hero.png);
-    height: 200px;
+    height: 265px;
 }
 
 #hero .c-hero {
@@ -125,7 +125,7 @@ a:hover {
 .c-piso3 {
     width: 80%;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 30px;
     border-top: 1px solid #d5a243;
 }
@@ -148,7 +148,8 @@ a:hover {
 .piso3 .c-piso3 p {
     font-weight: lighter;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 24px;
+    padding-bottom: 20px;
 }
 
 .piso3 .subprocesos {
@@ -157,8 +158,9 @@ a:hover {
 }
 
 .piso3 .componentes {
-    padding-top: 15px;
-    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .piso3 .c-piso3 ul {
@@ -167,9 +169,17 @@ a:hover {
     padding-left: 20px;
 }
 
+.piso3 .c-piso3 h5 {
+    padding-top: 10px;
+}
+
 .img-piso3 {
     grid-area: img-piso3;
     width: 100%;
+}
+
+.img-piso3 img {
+    padding-bottom: 20px;
 }
 
 
@@ -229,7 +239,7 @@ a:hover {
 
     
     #hero {
-        height: 160px;
+        height: 240px;
     }
 
     #hero .c-hero {
@@ -238,7 +248,7 @@ a:hover {
     }
     
     #hero .c-hero h1 {
-        font-size: 50px;
+        font-size: 40px;
         text-align: left;
         padding-top: 50px;
     }
@@ -259,71 +269,6 @@ a:hover {
     }
 
     .img-piso3 img {
-        width: 100%;
-    }
-
-
-
-    .piso4-grid {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto; 
-        grid-template-areas:    "piso4-textos"
-                                "img-piso4";
-    }
-
-    .img-piso4 img {
-        width: 100%;
-    }
-
-
-
-    .piso5-grid {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto; 
-        grid-template-areas:    "piso5-textos"
-                                "img-piso5";
-    }
-
-    .img-piso5 img {
-        width: 100%;
-    }
-
-
-
-    .piso6-grid {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto; 
-        grid-template-areas:    "piso6-textos"
-                                "img-piso6";
-    }
-
-    .img-piso6 img {
-        width: 100%;
-    }
-
-
-
-    .piso7-grid {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto; 
-        grid-template-areas:    "piso7-textos"
-                                "img-piso7";
-    }
-
-    .img-piso7 img {
-        width: 100%;
-    }
-
-
-
-    .piso8-grid {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto; 
-        grid-template-areas:    "piso8-textos"
-                                "img-piso8";
-    }
-
-    .img-piso8 img {
         width: 100%;
     }
 

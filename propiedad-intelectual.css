@@ -104,7 +104,7 @@ a:hover {
     width: 80%;
     margin: auto;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 .piso2-grid {
@@ -143,8 +143,8 @@ a:hover {
 .c-piso3 {
     width: 80%;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     border-top: 1px solid #d5a243;
 }
 
@@ -185,8 +185,8 @@ a:hover {
 .c-piso4 {
     width: 80%;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 50px;
     border-top: 1px solid #d5a243;
 }
 
@@ -282,7 +282,7 @@ a:hover {
     }
     
     #hero .c-hero h1 {
-        font-size: 50px;
+        font-size: 48px;
         text-align: left;
         padding-top: 50px;
     }

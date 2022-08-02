@@ -12,6 +12,16 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.programa {
+    
+    border: solid 1px black !important;
+    padding: 5px;
+    color:white;
+    background-color: blue;
+    
+    
+}
+
 /*
 div:hover {
     border: 1px solid #f1c40f;
@@ -161,8 +171,13 @@ a:hover {
     font-size: 16px;
     line-height: 20px;
     padding-left: 10px;
+    padding-bottom: 10px;
 }
 
+.piso4 .c-piso4 h5 a {
+    font-size: 14px;
+    letter-spacing: 0px;
+}
 
 
 /* PISO 5: PROYECTO 1 / GESTION TECNOLOGICA */
@@ -550,7 +565,7 @@ a:hover {
     }
     
     #hero .c-hero h1 {
-        font-size: 50px;
+        font-size: 48px;
         text-align: left;
         padding-top: 50px;
     }
