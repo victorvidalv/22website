@@ -3,13 +3,15 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     width: 100%;
     margin: auto;
-    background: #234067;
-    color: #234067;
+    background: #3b5998;
+    color: #3b5998;
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -21,7 +23,7 @@ div:hover {
 /* HEADER: logo + menu */
 
 .header {
-    background: #234067;
+    background: #3b5998;
     color: white;
     padding:20px;
     position: sticky;
@@ -72,24 +74,16 @@ a:hover {
 /* HERO */
 
 #hero {
-    background-image: url(img/hero.png);
-    height: 200px;
+    background-color: orange;
+    height: 40px;
 }
 
 #hero .c-hero {
+    padding-top: 7px;
     width: 80%;
     margin: auto;
 }
 
-#hero .c-hero h1 {
-    color: #00AFF0;
-    text-align: center;
-    font-size: 60px;
-    font-weight: lighter;
-    text-shadow: 2px 2px 2px black;
-    padding-top: 60px;
-    margin: 0px;
-}
 
 
 
@@ -153,10 +147,10 @@ a:hover {
 }
 
 .link {
-    border: #234067 1px solid !important   ;  
+    border: #3b5998 1px solid !important   ;  
     text-decoration: none   ;
     padding: 5px;
-    background-color: #234067;
+    background-color: #3b5998;
     margin-top: 5px;
     color: #fff;
 }
@@ -280,7 +274,7 @@ a:hover {
 
 .c-footer {
     display: flex;
-    background:#234067;
+    background:#3b5998;
     margin: 0px;
 }
 
