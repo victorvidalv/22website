@@ -72,7 +72,7 @@ a:hover {
 
 #hero {
     background-image: url(img/hero-inicio.png);
-    height: 450px;
+    height: 550px;
 }
 
 #hero .c-hero {
@@ -81,12 +81,12 @@ a:hover {
 }
 
 #hero .c-hero h1 {
-    color: #d5a243;
+    color: orange;
     text-align: center;
     font-size: 54px;
     font-weight: lighter;
     padding-top: 110px;
-    text-shadow: 2px 2px 2px black;
+
 }
 
 
