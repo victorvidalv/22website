@@ -91,7 +91,7 @@ a:hover {
 /* PISO 3: PARRAFO */
 
 .piso3 {
-    background: #e1dbcf;
+    background: #f7f7f7;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -150,7 +150,7 @@ a:hover {
 .img-piso4 {
     grid-area: img-piso4;
     width: 100%;
-    box-shadow: 2px 5px 10px #e1dbcf;
+    box-shadow: 2px 5px 10px #f7f7f7;
 }
 
 
@@ -199,7 +199,7 @@ a:hover {
 .img-piso5 {
     grid-area: img-piso5;
     width: 100%;
-    box-shadow: 2px 5px 10px #e1dbcf;
+    box-shadow: 2px 5px 10px #f7f7f7;
 }
 
 

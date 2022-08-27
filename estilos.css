@@ -15,6 +15,15 @@ body {
 
 }
 
+.youtube {
+    color: orange;
+    font-weight: 700;
+    font-size: 15px;
+    border: #d5a243 solid 1px;
+    padding: 5px;
+   
+}
+
 /*
 div:hover {
     border: 1px solid #f1c40f;
@@ -98,7 +107,7 @@ a:hover {
 /* PISO 2 */
 
 .piso2 {
-    background: #e1dbcf;
+    background: #f7f7f7;
     padding-top: 40px;
 }
 
@@ -117,7 +126,7 @@ a:hover {
 /* PISO 3 */
 
 .piso3 {
-    background: #e1dbcf;
+    background: #f7f7f7;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -136,7 +145,7 @@ a:hover {
 
 /* PISO 4 */
 .piso4 {
-    background: #e1dbcf;
+    background: #f7f7f7;
 }
 
 .c-piso4 {
@@ -184,7 +193,7 @@ a:hover {
 /* PISO 5 */
 
 .piso5 {
-    background: #e1dbcf;
+    background: #f7f7f7;
 }
 
 .c-piso5 {

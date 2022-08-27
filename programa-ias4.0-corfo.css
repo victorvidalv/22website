@@ -16,10 +16,10 @@ body {
 
 .programa {
     
-    border: solid 1px black !important;
+    border: solid 1px orange !important;
     padding: 5px;
     color:white;
-    background-color: blue;
+    background-color: #3b5998;
     
     
 }
@@ -100,7 +100,7 @@ a:hover {
 /* PISO 2: QUE ES */
 
 .piso2 {
-    background: #e1dbcf;
+    background: #f7f7f7;
     padding-top: 40px;
     padding-bottom: 20px;
 }
@@ -120,7 +120,7 @@ a:hover {
 /* PISO 3: PARRAFO */
 
 .piso3 {
-    background: #e1dbcf;
+    background: #f7f7f7;
 }
 
 .c-piso3 {
@@ -141,7 +141,7 @@ a:hover {
 /* PISO 4: CONSTA DE */
 
 .piso4 {
-    background: #e1dbcf;
+    background: #f7f7f7;
     padding-bottom: 30px;
 }
 

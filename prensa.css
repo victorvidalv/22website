@@ -69,7 +69,9 @@ a:hover {
     text-decoration: none;
 }
 
-
+.medios {
+    color: orange;
+}
 
 /* HERO */
 
@@ -90,7 +92,7 @@ a:hover {
 /* PISO 1: NOTICIA 20jul2022 */
 
 .piso1 {
-    background: #e1dbcf;
+    background: #f7f7f7;
 }
 
 .c-piso1 {
@@ -159,7 +161,7 @@ a:hover {
 /* PISO 2: NOTICIA 15jul2022 */
 
 .piso2 {
-    background: #e1dbcf;
+    background: #f7f7f7;
 }
 
 .c-piso2 {
@@ -216,7 +218,7 @@ a:hover {
 /* PISO 3: NOTICIA 30nov2021 */
 
 .piso3 {
-    background: #e1dbcf;
+    background: white;
 }
 
 .c-piso3 {
