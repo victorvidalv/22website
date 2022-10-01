@@ -96,7 +96,14 @@ a:hover {
 }
 
 
-
+.youtube {
+    color: orange;
+    font-weight: 700;
+    font-size: 15px;
+    border: #d5a243 solid 1px;
+    padding: 5px;
+   
+}
 
 
 /* PISO 2: QUE ES */

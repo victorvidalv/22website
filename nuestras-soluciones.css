@@ -250,7 +250,13 @@ a:hover {
     line-height: 22px;
 }
 
-
+.links {
+    color: orange;
+    font-weight: 500;
+    border: solid 1px orange;
+    padding: 1px;
+    margin-top: 3px;
+}
 
 
 /* Responsive */
@@ -299,6 +305,8 @@ a:hover {
 
 
 
+
+
     .contenido-footer {
         grid-template-columns: auto;
     }
@@ -310,5 +318,14 @@ a:hover {
     .c-email {
         padding-top: 20px;
         padding-bottom: 40px;
+    }
+
+    .youtube {
+        color: orange;
+        font-weight: 700;
+        font-size: 15px;
+        border: #d5a243 solid 1px;
+        padding: 5px;
+       
     }
 }

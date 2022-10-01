@@ -221,6 +221,15 @@ a:hover {
     background: white;
 }
 
+.youtube {
+    color: orange;
+    font-weight: 700;
+    font-size: 15px;
+    border: #d5a243 solid 1px;
+    padding: 5px;
+   
+}
+
 .c-piso3 {
     width: 80%;
     margin: auto;
